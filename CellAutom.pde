@@ -1,6 +1,6 @@
 // Fred Limouzin 2017
 
-CellAutom ca;
+CA ca;
 
 int nbcells = 63;
 int nbgens  = 96;
@@ -8,7 +8,7 @@ int ruleid  = 57;
 
 void setup () {
   size(520, 800);
-  ca = new CellAutom(nbcells);
+  ca = new CA(nbcells);
 }
 
 void draw () {
