@@ -1,13 +1,13 @@
 // Fred Limouzin 2017
 
-class CellAutom {
+class CA {
   int[] state;
   int[] prevstate;
   int rule;
   int len;
   float scl;
 
-  CellAutom (int tl) {
+  CA (int tl) {
     this.len = tl;
     this.scl = 1.0 * width / tl;
     this.state = new int[len];
